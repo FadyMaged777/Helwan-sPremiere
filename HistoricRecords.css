@@ -165,3 +165,64 @@ span{
   left: 45%;
    
 }
+footer {
+  background: #303036;
+  color: #d3d3d3;
+  height: 300px;
+  position: absolute ;
+  bottom: -1200px;
+  width: 100vw;
+  align-items: center;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 100px;
+  width: 100vw;
+}
+
+.footer-signature {
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 50px;
+  width: 100vw;
+  height: 40px;
+}
+
+#footer-logo {
+  top: 0;
+}
+.links {
+  padding: 20px;
+  background-color: #303036;
+  direction: ltr;
+}
+.links a {
+  text-decoration: none;
+}
+.list {
+    padding: 5px;
+    font-size: 20px;
+    background-color: #303036;
+    color: #fff;
+    direction: ltr;
+}
+.list:hover {
+    font-weight: bold;
+}
+.socials {
+  background-color: #303036;
+  padding: 20px;
+  margin-left: 40px;
+}
+#socials-icon {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    background-color: #303036;
+    color: white;
+}
